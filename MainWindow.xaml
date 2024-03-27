@@ -1,0 +1,27 @@
+﻿<Window x:Class="Testiki.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Testiki"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="60"/>
+            <RowDefinition/>
+            <RowDefinition Height="60"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Button x:Name="start" Grid.Column="1" Grid.Row="1" Content="Начать тест" Click="Start"/>
+        <Button x:Name="Redactirovanie" Grid.Column="1" Grid.Row="3" Content="Рекдактор теста" Click="Redak" IsDefault="True"/> 
+        <TextBox x:Name="Parol" Grid.ColumnSpan="3" Grid.Row="4" VerticalAlignment="Center" IsEnabled="False"/>
+        
+    </Grid>
+</Window>
