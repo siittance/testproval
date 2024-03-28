@@ -1,0 +1,38 @@
+﻿<Page x:Class="Testiki.Page3"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Testiki"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Page3">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Button x:Name="Otvet3" Tag="Answer3" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="9" Click="answer3"/>
+        <Button x:Name="Otvet2" Tag="Answer2" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="7" Click="answer2"/>
+        <Button x:Name="Otvet1" Tag="Answer1" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="5" Click="answer1"/>
+        <TextBlock x:Name="Namee" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="1" HorizontalAlignment="Center"/>
+        <TextBlock x:Name="Opisanie" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="3" HorizontalAlignment="Center"/>
+        <TextBlock x:Name="Kol" Grid.Row="10"/>
+    </Grid>
+</Page>

@@ -22,3 +22,11 @@ C:\Users\Administrator\source\repos\Testiki\Testiki\obj\Debug\net8.0-windows\ref
 C:\Users\Administrator\source\repos\Testiki\Testiki\obj\Debug\net8.0-windows\Testiki.pdb
 C:\Users\Administrator\source\repos\Testiki\Testiki\obj\Debug\net8.0-windows\Testiki.genruntimeconfig.cache
 C:\Users\Administrator\source\repos\Testiki\Testiki\obj\Debug\net8.0-windows\ref\Testiki.dll
+C:\Users\Administrator\source\repos\Testiki\Testiki\obj\Debug\net8.0-windows\Testiki.sourcelink.json
+C:\Users\Administrator\source\repos\Testiki\Testiki\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Users\Administrator\source\repos\Testiki\Testiki\obj\Debug\net8.0-windows\Testiki.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\Testiki\Testiki\obj\Debug\net8.0-windows\Testiki.csproj.CopyComplete
+C:\Users\Administrator\source\repos\Testiki\Testiki\obj\Debug\net8.0-windows\Page2.g.cs
+C:\Users\Administrator\source\repos\Testiki\Testiki\obj\Debug\net8.0-windows\Page2.baml
+C:\Users\Administrator\source\repos\Testiki\Testiki\obj\Debug\net8.0-windows\Page3.g.cs
+C:\Users\Administrator\source\repos\Testiki\Testiki\obj\Debug\net8.0-windows\Page3.baml

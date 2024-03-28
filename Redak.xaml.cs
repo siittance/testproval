@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -19,8 +20,6 @@ namespace Testiki
     /// </summary>
     public partial class Redak : Window
     {
-        MainWindow main = new MainWindow();
-
         public Redak()
         {
             InitializeComponent();
@@ -28,8 +27,28 @@ namespace Testiki
 
         private void exit(object sender, RoutedEventArgs e)
         {
+            MainWindow main = new MainWindow();
             main.Show();
             Close();
+        }
+
+        private void Text(object sender, RoutedEventArgs e)
+        {
+            stranica1.Content = new Page2();
+        }
+
+        private void nachattest(object sender, RoutedEventArgs e)
+        {
+            json Json = new json();
+            var govna = Json.Deserialization<List<model>>("soxr.json"); 
+            if (govna == null)
+            {
+                stranica2.Content = new Page1();
+            }
+            else
+            {
+                stranica3.Content = new Page3();
+            }
         }
     }
 }

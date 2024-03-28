@@ -28,7 +28,9 @@ namespace Testiki
 
         private void Start(object sender, RoutedEventArgs e)
         {
-
+            redak.Show();
+            Close();
+            redak.textr.IsEnabled = false;
         }
     }
 }
